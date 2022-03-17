@@ -20,6 +20,7 @@ class Book{
 const photo = new Book('graphic','photoshop');
 const vector = new Book('graphic','illustrator');
 const code = new Book('it','html');
+
 photo.list();
 vector.list();
 code.list();
